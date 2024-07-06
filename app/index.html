@@ -1,60 +1,112 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en" ng-app="foodMeApp">
+
 <head>
-  <meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-  // Paste New Relic Browser agent here
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="FoodMe - Platzi Challenge">
+	<meta name="author" content="Ansonika">
+	<title>FoodMe - Platzi Challenge</title>
 
-  <title>FoodMe</title>
-  <link rel="stylesheet" href="css/app.css">
-  <link rel="stylesheet" href="css/bootstrap-united.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<!-- Favicons-->
+	<link rel="shortcut icon" href="https://www.ansonika.com/foogra/img/favicon.ico" type="image/x-icon">
+
+	<!-- GOOGLE WEB FONT -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+
+	<!-- BASE CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/detail.css" rel="stylesheet">
+	<link href="css/app.css" rel="stylesheet">
+	<!-- SPECIFIC CSS -->
+	<link href="css/listing.css" rel="stylesheet">
+
 </head>
-<body>
 
-<div class="container">
+<body style="transform: none;">
 
-  <div class="navbar" ng-controller="NavbarController">
-    <div class="navbar-inner">
-      <a class="brand" href="#/">FoodMe</a>
-      <ul class="nav">
-        <li ng-class="{active: routeIs('/')}"><a href="#/">Home</a></li>
-        <li ng-class="{active: routeIs('/how-it-works')}"><a href="#/how-it-works">How it works</a></li>
-        <li ng-class="{active: routeIs('/who-we-are')}"><a href="#/who-we-are">Who we are</a></li>
-      </ul>
+	<header class="header_in clearfix" ng-controller="NavbarController">
+		<div class="container">
+			<div id="logo">
+				<a href="#">
+					<img src="img/logo_sticky.svg" width="140" height="35" alt="">
+				</a>
+			</div>
 
-      <ul class="nav pull-right">
-        <li ng-class="{active: routeIs('/help')}"><a href="#/help">Help</a></li>
-      </ul>
-    </div>
-  </div>
+			<!-- /top_menu -->
+			<a href="" class="open_close">
+				<i class="icon_menu"></i><span>Menu</span>
+			</a>
+			<nav class="main-menu">
+				<div id="header_menu">
+					<a href="#" class="open_close">
+						<i class="icon_close"></i><span>Menu</span>
+					</a>
+					<a href="#">
+						<img src="img/logo.svg" width="140" height="35" alt="">
+					</a>
+				</div>
+				<ul>
+					<li>
+						<a href="#" class="close">Home</a>
+					</li>
+					<li>
+						<a href="#/how-it-works" class="close">How it works</a>
+					</li>
+					<li>
+						<a href="#/who-we-are" class="close">Who we are</a>
+					</li>
+					<li>
+						<a href="#/help" class="close">Help</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- /header -->
+
+	<ng-view></ng-view>
+
+	<div id="toTop"></div><!-- Back to top button -->
+
+	<div class="layer"></div><!-- Opacity Mask Menu Mobile -->
 
 
-  <ng-view></ng-view>
 
-</div>
+	<!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular-resource.min.js"></script>
+  -->
+	<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+	<script src="lib/angular/angular.js"></script>
+	<script src="lib/angular/angular-resource.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/controllers/CheckoutController.js"></script>
+	<script src="js/controllers/CustomerController.js"></script>
+	<script src="js/controllers/MenuController.js"></script>
+	<script src="js/controllers/NavbarController.js"></script>
+	<script src="js/controllers/RestaurantsController.js"></script>
+	<script src="js/controllers/ThankYouController.js"></script>
+	<script src="js/directives/fmDeliverTo.js"></script>
+	<script src="js/directives/fmCheckboxList.js"></script>
+	<script src="js/directives/fmRating.js"></script>
+	<script src="js/services/alert.js"></script>
+	<script src="js/services/customer.js"></script>
+	<script src="js/services/localStorage.js"></script>
+	<script src="js/services/cart.js"></script>
+	<script src="js/services/Restaurant.js"></script>
 
-<!-- In production use:
-<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular-resource.min.js"></script>
--->
-<script src="lib/angular/angular.js"></script>
-<script src="lib/angular/angular-resource.js"></script>
-<script src="js/app.js"></script>
-<script src="js/controllers/CheckoutController.js"></script>
-<script src="js/controllers/CustomerController.js"></script>
-<script src="js/controllers/MenuController.js"></script>
-<script src="js/controllers/NavbarController.js"></script>
-<script src="js/controllers/RestaurantsController.js"></script>
-<script src="js/controllers/ThankYouController.js"></script>
-<script src="js/directives/fmDeliverTo.js"></script>
-<script src="js/directives/fmCheckboxList.js"></script>
-<script src="js/directives/fmRating.js"></script>
-<script src="js/services/alert.js"></script>
-<script src="js/services/customer.js"></script>
-<script src="js/services/localStorage.js"></script>
-<script src="js/services/cart.js"></script>
-<script src="js/services/Restaurant.js"></script>
+	<!-- COMMON SCRIPTS -->
+	<script src="js/common_scripts.min.js"></script>
+	<script src="js/common_func.js"></script>
+	<script src="js/validate.js"></script>
+
+	<!-- SPECIFIC SCRIPTS -->
+	<script src="js/sticky_sidebar.min.js"></script>
+	<script src="js/specific_listing.js"></script>
 
 </body>
+
 </html>
