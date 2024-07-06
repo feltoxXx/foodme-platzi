@@ -1681,6 +1681,10 @@ body {
   font-size: 0.875rem;
   font-family: "Poppins", Helvetica, sans-serif;
   color: #444;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 h1,
@@ -1739,10 +1743,12 @@ a:hover, a:focus {
 /* Grid custom */
 .container {
   max-width: 1280px !important;
+  
 }
 @media (max-width: 991px) {
   .container {
     max-width: 100% !important;
+  
   }
 }
 
@@ -4119,10 +4125,12 @@ a.btn_1.gray:hover,
 footer {
   background-color: #121921;
   padding: 20px 0 0px 0;
+  text-align: center;
 }
 @media (max-width: 767px) {
   footer {
     padding: 0 0 15px 0;
+    text-align: center;
   }
 }
 footer hr {
