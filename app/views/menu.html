@@ -15,22 +15,37 @@
   <div class="container margin_detail" style="transform: none;">
     <div class="row" style="transform: none;">
       <div class="col-lg-8">
-
+        <div class="detail_page_head clearfix">
+		                
+          <div class="title">
+              <h1>{{restaurant.name}}</h1>
+              {{restaurant.location}}
+              
+          </div>
+          <div class="rating">
+            <div class="score">
+              <span>Rating</span>
+              <strong>{{restaurant.rating}}</strong>
+            </div>
+          </div>
+      </div>
+        <div class="owl-carousel owl-theme carousel_1 magnific-gallery owl-loaded owl-drag">
+        
+        
+        
+          <div class="owl-stage-outer">
+            <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 2488px;">
+              <div class="owl-item active" style="width: 829.328px;">
+                <div class="item">
+                  <img src="img/location_1.jpg"
+                      alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="tabs_detail">
-          <ul class="nav nav-tabs" role="tablist">
-            <li class="nav-item" role="presentation">
-              <a id="tab-A" href="#pane-A" class="nav-link active" data-bs-toggle="tab" role="tab"
-                aria-selected="true">Menu</a>
-            </li>
-            <li class="nav-item" role="presentation">
-              <a id="tab-A" href="#pane-B" class="nav-link" data-bs-toggle="tab" role="tab" aria-selected="false"
-                tabindex="-1">Information</a>
-            </li>
-            <li class="nav-item" role="presentation">
-              <a id="tab-B" href="#pane-C" class="nav-link" data-bs-toggle="tab" role="tab" aria-selected="false"
-                tabindex="-1">Reviews</a>
-            </li>
-          </ul>
+        
 
           <div class="tab-content" role="tablist">
             <div id="pane-A" class="card tab-pane fade show active" role="tabpanel" aria-labelledby="tab-A">
@@ -44,7 +59,7 @@
               </div>
               <div id="collapse-A" class="collapse" role="tabpanel" aria-labelledby="heading-A">
                 <div class="card-body info_content">
-                  <p>{{restaurant.description}}</p>
+                  <p>{{restaurant.long_description}}</p>
                   
                   <div class="add_bottom_25"></div>
                   <h2>{{restaurant.name}} Menu</h2>
@@ -73,7 +88,7 @@
                           <div class="flex-md-column">
                             <h4>{{menuItem.name}}</h4>
                             <p>
-                              Fuisset mentitum deleniti sit ea.
+                              {{menuItem.description}}
                             </p>
                           </div>
                         </td>
@@ -98,28 +113,20 @@
       <div class="col-lg-4" id="sidebar_fixed"
         style="position: relative; overflow: visible; box-sizing: border-box; min-height: 1px;">
 
-        <!-- /box_booking -->
-
-
-
-
-
-
-
         <div class="theiaStickySidebar"
           style="padding-top: 0px; padding-bottom: 1px; position: static; transform: none; top: 0px; left: 1176.83px;">
           <div class="box_booking">
             <div class="head">
               <h3>Order Summary</h3>
-              <div class="offer">Up to -40% off</div>
+              
             </div>
-            <!-- /head -->
+            
             <div class="main">
               <ul class="clearfix">
                 <li ng-repeat="item in cart.items">
-                  <a href ng-click="cart.remove(item)"><i class="icon-remove-sign"></i>
-                  {{item.qty}} &times; {{item.name}}</a>
+                  <a href ng-click="cart.remove(item)"><i class="icon-remove-sign"></i>{{item.qty}} &times; {{item.name}}</a><span>{{item.qty*item.price | currency}}</span>
                 </li>
+                
               </ul>
 
               <ul class="clearfix">

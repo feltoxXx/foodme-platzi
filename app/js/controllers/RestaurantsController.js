@@ -1,37 +1,11 @@
 'use strict';
 
 foodMeApp.controller('RestaurantsController',
-  function RestaurantsController($scope, customer, $location, Restaurant, $rootScope, $timeout) {
+  function RestaurantsController($scope, customer, $location, Restaurant) {
 
     if (!customer.address) {
       $location.url('/customer');
     }
-
-    $rootScope.$on('$viewContentLoaded', function () {
-      $timeout(function () {
-
-        $('#sidebar_fixed').theiaStickySidebar({
-          minWidth: 991,
-          updateSidebarHeight: true,
-          additionalMarginTop: 25
-        });
-        //Filters collapse
-        var $headingFilters = $('.filter_type h4 a');
-        $headingFilters.on('click', function () {
-          $(this).toggleClass('opened');
-        })
-        $headingFilters.on('click', function () {
-          $(this).toggleClass('closed');
-        });
-
-        //Filters on mobile
-        $('a.open_filters').on("click", function () {
-          $('.filter_col').toggleClass('show');
-          $('main').toggleClass('freeze');
-          $('.layer').toggleClass('layer-is-visible');
-        });
-      });
-    });
 
     if (!customer.address) {
       $location.url('/customer');

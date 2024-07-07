@@ -126,16 +126,62 @@
                   <!-- /head -->
                   <div class="main">
                       
-                      <ul>
-                          <li>Date<span>Today 23/11/2019</span></li>
-                          <li>Hour<span>08.30pm</span></li>
-                          <li>Type<span>Delivery</span></li>
-                      </ul>
+                    <div class="dropdown time">
+                        <a href="#" data-bs-toggle="dropdown" aria-expanded="false" class="">Time <span id="selected_time"></span></a>
+                        <div class="dropdown-menu" style="">
+                            <div class="dropdown-menu-content">
+                                <h4>Lunch</h4>
+                                <div class="radio_select add_bottom_15">
+                                    <ul>
+                                        <li>
+                                            <input type="radio" id="time_1" name="time" value="12.00pm">
+                                            <label for="time_1">12.00<em>-40%</em></label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="time_2" name="time" value="12.30pm">
+                                            <label for="time_2">12.30<em>-40%</em></label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="time_3" name="time" value="01.00pm">
+                                            <label for="time_3">1.00<em>-40%</em></label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="time_4" name="time" value="01.30pm">
+                                            <label for="time_4">1.30<em>-40%</em></label>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- /time_select -->
+                                <h4>Dinner</h4>
+                                <div class="radio_select">
+                                    <ul>
+                                        <li>
+                                            <input type="radio" id="time_5" name="time" value="08.00pm">
+                                            <label for="time_1">20.00<em>-40%</em></label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="time_6" name="time" value="08.30pm">
+                                            <label for="time_2">20.30<em>-40%</em></label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="time_7" name="time" value="09.00pm">
+                                            <label for="time_3">21.00<em>-40%</em></label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="time_8" name="time" value="09.30pm">
+                                            <label for="time_4">21.30<em>-40%</em></label>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- /time_select -->
+                            </div>
+                        </div>
+                    </div>
                       <hr>
 
                       <ul class="clearfix">
                           <li ng-repeat="item in cart.items">
-                              <a href>{{item.qty}} x {{item.name}}</a><span>{{item.price | currency}}</span>
+                              <a href>{{item.qty}} x {{item.name}}</a><span>{{item.qty*item.price | currency}}</span>
                           </li>
 
                       </ul>
