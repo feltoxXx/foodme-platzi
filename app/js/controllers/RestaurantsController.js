@@ -80,15 +80,19 @@ foodMeApp.controller('RestaurantsController',
       american: 'American',
       barbecue: 'Barbecue',
       cafe: 'Cafe',
+      cafebreria: 'CafeBreria',
       chinese: 'Chinese',
       'czech/slovak': 'Czech / Slovak',
+      empanada: 'Empanadas',
       german: 'German',
       indian: 'Indian',
       japanese: 'Japanese',
       mexican: 'Mexican',
       pizza: 'Pizza',
       thai: 'Thai',
-      vegetarian: 'Vegetarian'
+      vegetarian: 'Vegetarian',
+      venezuelan: 'Venezuelan',
     };
 
   });
+0.

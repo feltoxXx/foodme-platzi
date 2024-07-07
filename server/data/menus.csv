@@ -221,3 +221,58 @@ vegetarian,Bruschetta,"Freshly toasted bread topped with diced tomatoes, garlic,
 vegetarian,Vegetable Paella,"Spanish-style paella with vegetables, saffron rice, and a variety of spices",16.50,100x100.gif
 vegetarian,Greek Salad,"Fresh lettuce, tomatoes, cucumbers, olives, feta cheese, and Greek dressing",10.50,100x100.gif
 vegetarian,Portobello Mushroom Burger,"Grilled portobello mushroom cap on a whole wheat bun with lettuce, tomato, and Swiss cheese",13.95,100x100.gif
+venezuelan,Arepas,"Traditional Venezuelan cornmeal cakes filled with various ingredients like cheese, meat, or avocado.",5.00,100x100.gif
+venezuelan,Pabellón Criollo,"Venezuela's national dish, consisting of shredded beef, black beans, rice, and fried plantains.",12.00,100x100.gif
+venezuelan,Cachapas,Sweet corn pancakes often served with fresh cheese and butter.,7.00,100x100.gif
+venezuelan,Hallacas,"Venezuelan tamales made with corn dough and filled with a stew of beef, pork, chicken, olives, and raisins, wrapped in plantain leaves.",10.00,100x100.gif
+venezuelan,Empanadas,"Fried or baked pastries filled with beef, chicken, cheese, or other fillings.",4.00,100x100.gif
+venezuelan,Asado Negro,"Beef roast cooked in a dark, sweet, and savory sauce.",15.00,100x100.gif
+venezuelan,Perico,"Scrambled eggs with tomatoes, onions, and bell peppers, typically served with arepas.",6.00,100x100.gif
+venezuelan,Polvorosa de Pollo,Chicken pot pie with a slightly sweet crust.,11.00,100x100.gif
+venezuelan,Patacones,"Twice-fried green plantains, often served with toppings like shredded beef, cheese, and vegetables.",8.00,100x100.gif
+venezuelan,Sancocho,"Hearty soup made with beef, chicken, or fish, and vegetables like yucca, plantains, and corn.",9.00,100x100.gif
+venezuelan,Quesillo,"Venezuelan-style flan made with condensed milk, eggs, and caramel.",4.50,100x100.gif
+venezuelan,Tres Leches,Sponge cake soaked in three kinds of milk and topped with whipped cream.,5.00,100x100.gif
+venezuelan,Torta de Plátano,Sweet plantain cake often made with cinnamon and cheese.,4.00,100x100.gif
+venezuelan,Arroz con Leche,Creamy rice pudding flavored with cinnamon and sometimes topped with raisins.,3.50,100x100.gif
+venezuelan,Majarete,"Corn pudding made with coconut milk, cinnamon, and cloves.",4.00,100x100.gif
+venezuelan,Dulce de Lechosa,Sweet dessert made from green papaya cooked in sugar and cinnamon syrup.,4.00,100x100.gif
+venezuelan,Golfeados,Sweet rolls made with anise and topped with cheese and syrup.,3.50,100x100.gif
+venezuelan,Buñuelos,Fried dough balls served with sugar syrup.,3.00,100x100.gif
+venezuelan,Catalina,Spiced molasses cookies.,2.50,100x100.gif
+venezuelan,Helado de Cazuela,Traditional homemade ice cream made with tropical fruits.,3.50,100x100.gif
+empanada,Traditional Beef Empanada,A classic savory pastry filled with seasoned ground beef.,3.50,100x100.gif
+empanada,Chicken and Cheese Empanada,Tender chicken and gooey cheese wrapped in a golden pastry shell.,3.75,100x100.gif
+empanada,Spinach and Cheese Empanada,Fresh spinach and creamy cheese baked to perfection in a flaky crust.,3.75,100x100.gif
+empanada,Ham and Cheese Empanada,Savory ham and melted cheese folded in a delicious pastry pocket.,3.50,100x100.gif
+empanada,Apple Cinnamon Empanada,Sweet apples with a hint of cinnamon tucked into a crispy pastry shell.,3.50,100x100.gif
+empanada,Chocolate Empanada,"Rich chocolate filling encased in a warm, crispy pastry.",3.75,100x100.gif
+empanada,Espresso,A strong and aromatic shot of espresso.,2.50,100x100.gif
+empanada,Cappuccino,"Equal parts espresso, steamed milk, and foamed milk.",3.50,100x100.gif
+empanada,Latte,A smooth and creamy coffee drink made with espresso and steamed milk.,3.75,100x100.gif
+empanada,Americano,Hot water poured over a shot of espresso for a bold and robust flavor.,3.00,100x100.gif
+empanada,Mocha,"Espresso combined with chocolate syrup and steamed milk, topped with whipped cream.",4.00,100x100.gif
+empanada,Macchiato,A shot of espresso with a dollop of frothy milk foam.,3.25,100x100.gif
+empanada,Churros,"Crispy fried dough dusted with cinnamon sugar, served with chocolate dipping sauce.",4.50,100x100.gif
+empanada,Alfajores,Delicate shortbread cookies filled with dulce de leche and dusted with powdered sugar.,3.75,100x100.gif
+empanada,Dulce de Leche Empanada,A sweet empanada filled with decadent dulce de leche.,4.00,100x100.gif
+empanada,Tres Leches Cake,"Moist sponge cake soaked in three types of milk, topped with whipped cream.",4.75,100x100.gif
+empanada,Flan,A creamy caramel custard dessert with a rich flavor and smooth texture.,4.25,100x100.gif
+cafebreria,Don Quijote’s Beef Empanada,Juicy beef empanada inspired by Cervantes’ timeless novel.,6.00,100x100.gif
+cafebreria,Federico’s Lorca Chicken Empanada,Savory chicken empanada named after Federico García Lorca.,5.50,100x100.gif
+cafebreria,Isabel Allende’s Cheese Empanada,Cheesy delight inspired by Isabel Allende’s captivating stories.,5.00,100x100.gif
+cafebreria,Borges’ Spinach and Cheese Empanada,A blend of spinach and cheese inspired by Jorge Luis Borges.,5.50,100x100.gif
+cafebreria,Marquez’s Sweet Corn Empanada,Sweet corn filling inspired by Gabriel García Márquez’s magical realism.,5.50,100x100.gif
+cafebreria,Neruda’s Seafood Empanada,Delicious seafood empanada inspired by Pablo Neruda’s coastal poetry.,7.00,100x100.gif
+cafebreria,Cortázar’s Ham and Cheese Empanada,Classic ham and cheese inspired by Julio Cortázar’s imaginative works.,5.50,100x100.gif
+cafebreria,Sor Juana’s Mushroom Empanada,Savory mushroom filling inspired by Sor Juana Inés de la Cruz.,6.00,100x100.gif
+cafebreria,Llosa’s Potato Empanada,Peruvian-style potato filling inspired by Mario Vargas Llosa.,5.50,100x100.gif
+cafebreria,Martí’s Café Cubano,A strong Cuban coffee inspired by José Martí.,3.00,100x100.gif
+cafebreria,Benedetti’s Mate,"Traditional Uruguayan mate tea, named after Mario Benedetti.",2.50,100x100.gif
+cafebreria,Lorca’s Cortado,"Espresso cut with a small amount of warm milk, inspired by Federico García Lorca.",3.50,100x100.gif
+cafebreria,Borges’ Cappuccino,A rich and frothy cappuccino inspired by Jorge Luis Borges.,4.00,100x100.gif
+cafebreria,Allende’s Latte,A creamy latte named after Isabel Allende.,4.00,100x100.gif
+cafebreria,Marquez’s Espresso,A strong and bold espresso inspired by Gabriel García Márquez.,2.50,100x100.gif
+cafebreria,Neruda’s Mocha,A delightful mocha coffee inspired by Pablo Neruda’s romantic poetry.,4.50,100x100.gif
+cafebreria,Sor Juana’s Iced Coffee,A refreshing iced coffee inspired by Sor Juana Inés de la Cruz.,3.50,100x100.gif
+cafebreria,Llosa’s Flat White,Smooth and velvety flat white inspired by Mario Vargas Llosa.,4.00,100x100.gif
